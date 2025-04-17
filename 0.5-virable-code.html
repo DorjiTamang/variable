@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <title>virable practies</title>
+    <head>
+
+    </head>
+    <body>
+        <button onclick="
+            console.log(`cardquantity: ${cardquantity}`);
+            ">show quantity</button>
+        <button onclick="
+            cardquantity = cardquantity + 1;
+            console.log(`cardquantity: ${cardquantity}`);
+
+        ">add to card</button>
+        <button onclick="
+            cardquantity = cardquantity + 2;
+            console.log(`cardquantity: ${cardquantity}`);
+
+        ">+2</button>
+        <button onclick="
+            cardquantity = 0;
+            console.log( 'card reset');
+            console.log('cardquantity; 0');
+
+        ">reset card</button>
+        <script>
+         let cardquantity = 0;
+        </script>
+    </body>
+</html>
